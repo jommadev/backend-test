@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.sql.DataSource;
+
 import java.sql.Types;
 import java.util.HashMap;
 import java.util.Map;
