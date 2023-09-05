@@ -45,15 +45,7 @@ public class ApiController {
             inParams.put("p_session", request.getSession());
             inParams.put("p_ip_address", request.getIpAddress());
        
-       /*      int inputErrorValue = 123; // Replace with the actual value you want to send
-            inParams.put("p_error", inputErrorValue);
-            int inputUseridValue = 0; // Replace with the actual value you want to send
-            inParams.put("p_user_id", inputUseridValue);
-            int inpuOTPValue = 0; // Replace with the actual value you want to send
-            inParams.put("p_otp", inpuOTPValue);
-            int inpuMsgValue = '-'; // Replace with the actual value you want to send
-            inParams.put("p_msg", inpuMsgValue);
-            */
+     
             // Execute the stored procedure and retrieve the output parameters
             Map<String, Object> outParams = jdbcCall.execute(inParams);
 
